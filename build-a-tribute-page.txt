@@ -1,0 +1,113 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tribute to Nikola Tesla</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Nikola Tesla: Master of Electricity</h1>
+    
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/d/d4/N.Tesla.JPG" alt="Nikola Tesla Portrait">
+      <figcaption id="img-caption">Nikola Tesla, visionary inventor and pioneer of alternating current electricity.</figcaption>
+    </div>
+    
+    <section id="tribute-info">
+  <p><strong>Nikola Tesla</strong> (1856–1943) was a Serbian-American inventor, engineer, and physicist known for his revolutionary contributions to the development of alternating current (AC) electrical systems.</p>
+  <p>He developed the Tesla coil, worked with X-rays, and envisioned wireless energy transmission far before his time.</p>
+  <p>His work laid the foundation for modern electricity and telecommunications. Though often overshadowed in his lifetime, Tesla's legacy continues to inspire innovation and imagination across the globe.</p>
+</section>
+
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Learn more about Nikola Tesla</a>
+  </main>
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color: #f4f1ea;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+#main {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+}
+
+#tribute-info {
+  margin: 30px 0;
+  text-align: justify;
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+a#tribute-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a#tribute-link:hover {
+  color: #005999;
+}
+
+
+** end of styles.css **
+
